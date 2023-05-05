@@ -1,2 +1,6 @@
 # blackjack
-creating a black jack game
+
+This is a blackjack game.
+The interface looks like
+
+[Example Text](example.png)
