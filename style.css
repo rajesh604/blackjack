@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 75%;
+    height: 75%;
+    border: 2px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3vh;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+}
+
+.header {
+    font-size: xx-large;
+    color: gold;
+}
+
+.middle {
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+}
+
+.middle button {
+    background-color: goldenrod;
+    font-size: larger;
+    font-weight: bolder;
+    padding: 2vh;
+    color: green;
+    transition: all 0.5s ease-in-out;
+    width: 20vw;
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+.middle button:hover {
+    scale: 1.1;
+}
+
+.middle button:active {
+    background-color: blue;
+}
+
+#exit-el {
+    background-color: red;
+}
+
+#newcard-el {
+    background-color: green;
+    color: goldenrod;
+}
